@@ -7,8 +7,8 @@ insert_html = """
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https://upload.wikimedia.org https://lh3.googleusercontent.com https://images.unsplash.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com https://unpkg.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; script-src 'self' 'unsafe-inline' https://unpkg.com;">
     <meta property="og:title" content="MILAN STAR BUILDING MATERIALS TRADING L.L.C">
     <meta property="og:description" content="Premium interior building materials, hardware, and finishings in Al Qusais Dubai. 5.0-star rating.">
-    <meta property="og:image" content="https://www.milanstarbuilding.com/logo.png">
-    <meta property="og:url" content="https://www.milanstarbuilding.com/">
+    <meta property="og:image" content="https://www.milanstarbmt.com/logo.png">
+    <meta property="og:url" content="https://www.milanstarbmt.com/">
     <meta property="og:type" content="website">"""
 
 search_str = '<meta name="viewport" content="width=device-width, initial-scale=1.0">'
