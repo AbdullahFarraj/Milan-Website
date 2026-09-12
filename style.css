@@ -16,6 +16,11 @@
 }
 
 /* Reset & Base Styles */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -1518,4 +1523,158 @@ button {
 .typed-text {
     color: var(--primary);
     font-weight: 700;
+}
+
+/* --- Extra Responsive Enhancements --- */
+
+/* Tablet & Mobile padding adjustments */
+@media (max-width: 1024px) {
+    #about, #catalog, #contact, .reviews-section {
+        padding: 80px 0 !important;
+    }
+    .hero-split {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Reduce section paddings for mobile */
+    #about, #catalog, #contact, .reviews-section {
+        padding: 60px 0 !important;
+    }
+    
+    /* Adjust Container Padding */
+    .container {
+        padding: 0 15px;
+    }
+
+    /* Adjust typography */
+    .section-title {
+        font-size: 2rem;
+    }
+    .section-subtitle {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    /* Buttons */
+    .btn {
+        padding: 12px 24px;
+        font-size: 0.9rem;
+    }
+
+    /* Fix flex layouts */
+    .contact-badge {
+        min-width: 100%;
+    }
+    .quick-contact-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    /* Marquee fix for mobile */
+    .marquee-content img {
+        margin: 0 15px;
+        height: 30px;
+    }
+    
+    .reviews-marquee-content .review-card {
+        flex: 0 0 300px;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 2.2rem;
+    }
+    .section-title {
+        font-size: 1.8rem;
+    }
+    .hero-stats-banner {
+        width: 95%;
+        padding: 20px;
+    }
+    .stat-num {
+        font-size: 2rem;
+    }
+}
+
+/* --- FINAL MOBILE OVERFLOW FIXES --- */
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+    max-width: 100vw;
+}
+
+@media (max-width: 768px) {
+    /* Force grids to single column on mobile to prevent overflow */
+    .catalog-grid {
+        grid-template-columns: 1fr !important;
+    }
+    
+    /* Fix marquee gradient widths on small screens */
+    .marquee-container::before,
+    .marquee-container::after,
+    .reviews-marquee-container::before,
+    .reviews-marquee-container::after {
+        width: 30px !important;
+    }
+    
+    /* Make hero buttons stack on small screens */
+    .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+    }
+    .hero-buttons .btn {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    /* Ensure no text or padding overflows */
+    * {
+        max-width: 100%;
+    }
+    
+    /* Reset max-width for elements that legitimately need to scroll (like marquee content) */
+    .marquee-content, 
+    .marquee-content *,
+    .reviews-marquee-content,
+    .reviews-marquee-content * {
+        max-width: none;
+    }
+}
+
+/* --- ADDITIONAL MOBILE OVERFLOW FIXES --- */
+@media (max-width: 480px) {
+    /* Fix working hours text overflow */
+    .hour-row {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .hour-row span:last-child {
+        color: white;
+        font-weight: bold;
+    }
+    
+    /* Make the Mr Printo badge wrap properly */
+    .footer-contact .fa-phone + span {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    /* WhatsApp button sizing and position */
+    .whatsapp-container {
+        left: 20px;
+        bottom: 20px;
+    }
+    .floating-whatsapp {
+        width: 50px;
+        height: 50px;
+        font-size: 26px;
+    }
 }
