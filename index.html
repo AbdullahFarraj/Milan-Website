@@ -4,28 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- Security & Social Tags -->
     <meta http-equiv="Content-Security-Policy"
         content="default-src 'self'; frame-src https://www.google.com; img-src 'self' data: https://upload.wikimedia.org https://lh3.googleusercontent.com https://images.unsplash.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com https://unpkg.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; script-src 'self' 'unsafe-inline' https://unpkg.com;">
     <meta property="og:title" content="MILAN STAR BUILDING MATERIALS TRADING L.L.C">
     <meta property="og:description"
-        content="Premium interior building materials, hardware, and finishings in Al Qusais Dubai. 5.0-star rating.">
+        content="Certified premium building materials, hardware, paints, and gypsum in Al Qusais Dubai. 5.0-star rating. Same-day site delivery.">
     <meta property="og:image" content="https://milanstarbmt.com/logo.png">
     <meta property="og:url" content="https://milanstarbmt.com/">
     <meta property="og:type" content="website">
 
     <!-- SEO Meta Tags -->
-    <title>MILAN STAR BUILDING MATERIALS TRADING L.L.C | Interior Building Materials in Dubai</title>
+    <title>MILAN STAR BUILDING MATERIALS TRADING L.L.C | Interior Building Materials Dubai</title>
     <meta name="description"
-        content="Discover premium interior building materials, hardware, and finishings in Al Qusais Dubai. MILAN STAR BUILDING MATERIALS TRADING L.L.C offers top-quality products with a 5.0-star rating.">
+        content="Dubai's trusted building materials supplier in Al Qusais. Premium paints (Jotun, Berger), power tools (Bosch, Makita, DeWalt), gypsum drywall, hardware & plumbing. 5.0 Google Reviews.">
     <meta name="keywords"
-        content="interior building materials, hardware, finishings, Al Qusais Dubai, MILAN STAR, ميلان ستار لتجارة مواد البناء">
+        content="building materials dubai, hardware al qusais, jotun paint supplier dubai, makita bosch tools, gypsum partitions uae, ميلان ستار لتجارة مواد البناء">
 
-    <!-- Google Fonts -->
+    <!-- Google Fonts: Plus Jakarta Sans (Executive Corporate) & Alexandria (Premium Arabic) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@500;600;700;800;900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap"
         rel="stylesheet">
 
     <!-- FontAwesome -->
@@ -38,22 +39,21 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "LocalBusiness",
+      "@type": "HardwareStore",
       "name": "MILAN STAR BUILDING MATERIALS TRADING L.L.C",
-      "alternateName": "ميلان ستار لتجارة مواد البناء",
+      "alternateName": "ميلان ستار لتجارة مواد البناء ش.ذ.م.م",
       "image": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80&w=1920",
-      "description": "Premium interior building materials, hardware, and finishings in Al Qusais Dubai.",
+      "description": "Certified premium interior building materials, hardware, paints, and drywall finishings in Al Qusais Dubai.",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Ali Saeed Abdullah Bel Hab Al Ameri Bldg., Shop No-11, Al Qusais Ind First",
         "addressLocality": "Dubai",
         "addressCountry": "AE"
       },
-      "telephone": "045727391",
+      "telephone": "+97145727391",
       "url": "https://milanstarbmt.com",
       "priceRange": "AED",
       "geo": { "@type": "GeoCoordinates", "latitude": 25.282379, "longitude": 55.384794 },
-
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
@@ -74,10 +74,10 @@
 
     <link rel="stylesheet" href="style.css">
     <link rel="canonical" href="https://milanstarbmt.com/">
-    <!-- Security Meta Tags -->
+
+    <!-- Security & UAE Geo-targeting Meta Tags -->
     <meta http-equiv="X-Content-Type-Options" content="nosniff">
     <meta name="referrer" content="strict-origin-when-cross-origin">
-    <!-- UAE Geo-targeting Meta Tags -->
     <meta name="geo.region" content="AE-DU">
     <meta name="geo.placename" content="Dubai, Al Qusais">
     <meta name="geo.position" content="25.282379;55.384794">
@@ -91,313 +91,1006 @@
         <div class="loader"></div>
     </div>
 
+    <!-- Header / Navbar -->
     <header id="header">
         <div class="container nav-container">
-            <a href="/" class="logo">
-                <img src="logo.png" loading="eager" width="220" height="70" style="object-fit: contain;"
+            <a href="#hero" class="logo">
+                <img src="logo.png" loading="eager" width="180" height="46" style="object-fit: contain;"
                     alt="MILAN STAR BUILDING MATERIALS TRADING L.L.C" class="site-logo"
-                    onerror="this.onerror=null; this.outerHTML='<div class=\'logo-en\'>MILAN STAR <span>BUILDING MATERIALS TRADING L.L.C</span></div><div class=\'logo-ar\'>ميلان ستار لتجارة مواد البناء ش.ذ.م.م</div>';">
+                    onerror="this.onerror=null; this.outerHTML='<div class=\'logo-en\'>MILAN STAR <span>BUILDING MATERIALS</span></div><div class=\'logo-ar\'>ميلان ستار لتجارة مواد البناء ش.ذ.م.م</div>';">
             </a>
+
+            <nav class="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#hero" data-i18n="nav_home">Home</a></li>
+                    <li><a href="#categories" data-i18n="nav_categories">Materials</a></li>
+                    <li><a href="#why-us" data-i18n="nav_why_us">Why Us</a></li>
+                    <li><a href="#showroom" data-i18n="nav_showroom">Showroom</a></li>
+                    <li><a href="#rfq" data-i18n="nav_rfq">Quote (RFQ)</a></li>
+                    <li><a href="#reviews" data-i18n="nav_reviews">Reviews</a></li>
+                    <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+                </ul>
+
+                <div class="nav-actions">
+                    <!-- Language Toggle Button -->
+                    <button type="button" class="lang-toggle-btn" onclick="toggleLanguage()" aria-label="Change Language">
+                        <i class="fa-solid fa-globe"></i>
+                        <span id="lang-btn-text">العربية</span>
+                    </button>
+
+                    <!-- WhatsApp CTA -->
+                    <a href="https://wa.me/971553656298" class="btn btn-primary nav-cta" target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="fa-brands fa-whatsapp"></i> <span data-i18n="nav_whatsapp_btn">WhatsApp</span>
+                    </a>
+                </div>
+            </nav>
 
             <button class="mobile-toggle" aria-label="Toggle Navigation">
                 <i class="fa-solid fa-bars"></i>
             </button>
-
-            <div class="nav-menu">
-                <ul class="nav-links">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="catalog.html">Catalog</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-                <a href="https://wa.me/971553656298" class="btn btn-primary nav-cta" target="_blank"
-                    rel="noopener noreferrer">
-                    <i class="fa-brands fa-whatsapp"></i> WhatsApp
-                </a>
-            </div>
         </div>
     </header>
+
     <main>
+        <!-- ====================================================
+             HERO SECTION
+             ==================================================== -->
         <section id="hero">
             <div class="hero-overlay-accent"></div>
             <div class="container">
                 <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="rating-badge">
-                        <div class="stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
+
+                    <!-- Live Dubai Store Hours & Rating Badges -->
+                    <div class="hero-top-badges">
+                        <div id="store-status-chip" class="store-status-chip is-open">
+                            <span class="status-dot"></span>
+                            <span>Open Now • Closes at 8:30 PM (Al Qusais, Dubai)</span>
                         </div>
-                        <span>5.0 Stars on Google Reviews</span>
+
+                        <div class="rating-badge">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span data-i18n="hero_rating_badge">5.0 Stars on Google Reviews (150+ Reviews)</span>
+                        </div>
                     </div>
-                    <h1>Premium Interior Building Materials in Dubai</h1>
-                    <p>At MILAN STAR BUILDING MATERIALS TRADING L.L.C (ميلان ستار لتجارة مواد البناء), we deliver
-                        exceptional quality hardware, paints, and finishings for professionals and homeowners alike.</p>
+
+                    <!-- Dynamic Typing Hero Title with Lead Text -->
+                    <h1 class="hero-title">
+                        <span class="hero-lead-text" data-i18n="hero_title_lead">DUBAI'S TRUSTED SUPPLIER FOR</span>
+                        <span class="typed-text-holder"><span class="typed-text"></span><span class="cursor">&nbsp;</span></span>
+                    </h1>
+
+                    <!-- Hero Subtitle -->
+                    <p data-i18n="hero_description">
+                        At MILAN STAR BUILDING MATERIALS TRADING L.L.C (ميلان ستار لتجارة مواد البناء), we deliver
+                        exceptional quality hardware, paints, gypsum drywall systems, and finishings for contractors and
+                        interior fit-out projects across the UAE.
+                    </p>
+
+                    <!-- Hero Action Buttons -->
                     <div class="hero-buttons">
-                        <a href="catalog.html" class="btn btn-primary">
-                            Explore Catalog <i class="fa-solid fa-arrow-right"></i>
+                        <a href="#categories" class="btn btn-primary">
+                            <span data-i18n="hero_btn_catalog">Explore Materials</span> <i
+                                class="fa-solid fa-arrow-down"></i>
+                        </a>
+                        <a href="#rfq" class="btn btn-outline"
+                            style="border: 2px solid rgba(250, 204, 21, 0.5); color: white; background: rgba(0,0,0,0.4); backdrop-filter: blur(5px);">
+                            <i class="fa-solid fa-file-invoice-dollar" style="color: var(--primary);"></i>
+                            <span data-i18n="hero_btn_rfq">Get Instant Quote (RFQ)</span>
                         </a>
                     </div>
+
                 </div>
+
+                <!-- Hero Stats Counter Banner (Clean In-Flow Grid) -->
+                <div class="hero-stats-banner" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stat-item">
+                        <div class="stat-num" data-target="10000+" data-i18n="stat_1_num">10,000+</div>
+                        <span class="stat-text" data-i18n="stat_1_text">Building Materials in Stock</span>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-num" data-target="5.0" data-i18n="stat_2_num">5.0 ★</div>
+                        <span class="stat-text" data-i18n="stat_2_text">Top Google Rating</span>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-num" data-target="15+" data-i18n="stat_3_num">15+</div>
+                        <span class="stat-text" data-i18n="stat_3_text">Global Certified Brands</span>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-num" data-i18n="stat_4_num">Same-Day</div>
+                        <span class="stat-text" data-i18n="stat_4_text">Direct Job-Site Delivery</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Scroll Indicator -->
+            <div class="scroll-indicator">
+                <div class="mouse"></div>
             </div>
         </section>
 
-        <!-- Trusted Brands Marquee -->
+        <!-- ====================================================
+             TRUSTED BRANDS INFINITE MARQUEE
+             ==================================================== -->
         <section class="trusted-brands" data-aos="fade-up">
             <div class="container">
-                <h3
-                    style="text-align: center; color: var(--primary); font-size: 1.2rem; font-weight: 800; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 40px;">
-                    Trusted by Industry Leaders</h3>
+                <h3 style="text-align: center; color: var(--primary); font-size: 1rem; font-weight: 800; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 35px;"
+                    data-i18n="brands_title">
+                    Authorized Stockist for Top Brands</h3>
                 <div class="marquee-container">
                     <div class="marquee-content">
                         <!-- First Set -->
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Jotun_logo.svg" alt="Jotun">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Jotun_logo.svg" alt="Jotun Paints">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Unternehmensgruppe_Berger_Logo.svg"
-                            alt="Berger">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Makita_Logo.svg" alt="Makita">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/1/16/Bosch-logo.svg" alt="Bosch">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/DeWalt_Logo.svg" alt="DeWalt">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Grohe.svg" alt="Grohe">
+                            alt="Berger Paints">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Makita_Logo.svg" alt="Makita Power Tools">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/1/16/Bosch-logo.svg" alt="Bosch Tools">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/DeWalt_Logo.svg" alt="DeWalt Power Tools">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Grohe.svg" alt="Grohe Sanitary">
                         <!-- Second Set (Duplicate for smooth infinite scroll) -->
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Jotun_logo.svg" alt="Jotun">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Jotun_logo.svg" alt="Jotun Paints">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Unternehmensgruppe_Berger_Logo.svg"
-                            alt="Berger">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Makita_Logo.svg" alt="Makita">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/1/16/Bosch-logo.svg" alt="Bosch">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/DeWalt_Logo.svg" alt="DeWalt">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Grohe.svg" alt="Grohe">
+                            alt="Berger Paints">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Makita_Logo.svg" alt="Makita Power Tools">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/1/16/Bosch-logo.svg" alt="Bosch Tools">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/DeWalt_Logo.svg" alt="DeWalt Power Tools">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Grohe.svg" alt="Grohe Sanitary">
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Google Reviews -->
-        <section id="reviews" class="reviews-section" data-aos="fade-up"
-            style="padding: 80px 0; background: var(--bg-dark);">
+        <!-- ====================================================
+             PRODUCT CATEGORIES SHOWCASE SECTION
+             ==================================================== -->
+        <section id="categories">
             <div class="container">
-                <div class="section-header" style="text-align: center; margin-bottom: 50px;">
-                    <h2 style="color: white; font-size: 2.5rem; font-weight: 800; margin-bottom: 10px;">What Our Clients
-                        Say</h2>
-                    <p style="color: var(--text-muted); font-size: 1.1rem;">Rated 5.0 <i class="fa-solid fa-star"
-                            style="color: var(--primary);"></i> on <span
-                            style="color: white; font-weight: 600;">Google</span></p>
+                <div class="text-center" data-aos="fade-up">
+                    <div class="section-badge" data-i18n="cat_badge">WHAT WE SUPPLY</div>
+                    <h2 class="section-title text-center" data-i18n="cat_title">Core Supply Categories</h2>
+                    <p class="section-subtitle" data-i18n="cat_subtitle">
+                        From foundation hardware to luxury finishes, explore our extensive inventory ready for rapid
+                        site dispatch across Dubai and the UAE.
+                    </p>
                 </div>
-                <div class="reviews-marquee-container">
-                    <div class="reviews-marquee-content">
-                        <!-- Review 1 -->
-                        <div class="review-card"
-                            style="background: rgba(255,255,255,0.03); padding: 30px; border-radius: 15px; border: 1px solid rgba(255,255,255,0.05); transition: transform 0.3s ease;">
-                            <div class="review-header"
-                                style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
-                                <div class="avatar"
-                                    style="width: 50px; height: 50px; border-radius: 50%; background: var(--primary); color: var(--bg-dark); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: bold;">
-                                    F</div>
-                                <div>
-                                    <h4 style="margin: 0; color: white; font-size: 1.1rem;">Fahim Ck</h4>
-                                    <div class="stars" style="color: var(--primary); font-size: 0.9rem;">
-                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i>
-                                    </div>
-                                </div>
-                                <i class="fa-brands fa-google"
-                                    style="margin-left: auto; font-size: 1.5rem; color: #4285F4;"></i>
-                            </div>
-                            <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;">"I’ve been
-                                purchasing from this shop regularly, and their service has always been outstanding. The
-                                quality of materials is top‑notch, prices are competitive, and they maintain great stock
-                                availability."</p>
-                        </div>
 
-                        <!-- Review 2 -->
-                        <div class="review-card"
-                            style="background: rgba(255,255,255,0.03); padding: 30px; border-radius: 15px; border: 1px solid rgba(255,255,255,0.05); transition: transform 0.3s ease;">
-                            <div class="review-header"
-                                style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
-                                <div class="avatar"
-                                    style="width: 50px; height: 50px; border-radius: 50%; background: var(--primary); color: var(--bg-dark); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: bold;">
-                                    T</div>
-                                <div>
-                                    <h4 style="margin: 0; color: white; font-size: 1.1rem;">thaju dheen</h4>
-                                    <div class="stars" style="color: var(--primary); font-size: 0.9rem;">
-                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i>
-                                    </div>
-                                </div>
-                                <i class="fa-brands fa-google"
-                                    style="margin-left: auto; font-size: 1.5rem; color: #4285F4;"></i>
-                            </div>
-                            <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;">"Best building
-                                material shop in dubai. Staff are knowledgeable, friendly, and quick to assist with any
-                                requirement."</p>
-                        </div>
+                <div class="categories-grid">
 
-                        <!-- Review 3 -->
-                        <div class="review-card"
-                            style="background: rgba(255,255,255,0.03); padding: 30px; border-radius: 15px; border: 1px solid rgba(255,255,255,0.05); transition: transform 0.3s ease;">
-                            <div class="review-header"
-                                style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
-                                <div class="avatar"
-                                    style="width: 50px; height: 50px; border-radius: 50%; background: var(--primary); color: var(--bg-dark); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: bold;">
-                                    P</div>
-                                <div>
-                                    <h4 style="margin: 0; color: white; font-size: 1.1rem;">printo cm</h4>
-                                    <div class="stars" style="color: var(--primary); font-size: 0.9rem;">
-                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i>
-                                    </div>
-                                </div>
-                                <i class="fa-brands fa-google"
-                                    style="margin-left: auto; font-size: 1.5rem; color: #4285F4;"></i>
-                            </div>
-                            <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;">"Delivery is fast
-                                and reliable, making the whole process smooth and stress‑free. Highly recommended for
-                                anyone looking for trusted building materials in the area."</p>
+                    <!-- Category 1: Paints & Protective Coatings -->
+                    <div class="cat-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="cat-img-box">
+                            <span class="cat-badge-tag" data-i18n="cat_1_tag">Jotun • Berger</span>
+                            <img src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&q=80&w=800"
+                                alt="Paints and Protective Coatings" loading="lazy">
                         </div>
-
-                        <!-- Review 1 -->
-                        <div class="review-card"
-                            style="background: rgba(255,255,255,0.03); padding: 30px; border-radius: 15px; border: 1px solid rgba(255,255,255,0.05); transition: transform 0.3s ease;">
-                            <div class="review-header"
-                                style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
-                                <div class="avatar"
-                                    style="width: 50px; height: 50px; border-radius: 50%; background: var(--primary); color: var(--bg-dark); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: bold;">
-                                    F</div>
-                                <div>
-                                    <h4 style="margin: 0; color: white; font-size: 1.1rem;">Fahim Ck</h4>
-                                    <div class="stars" style="color: var(--primary); font-size: 0.9rem;">
-                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i>
-                                    </div>
-                                </div>
-                                <i class="fa-brands fa-google"
-                                    style="margin-left: auto; font-size: 1.5rem; color: #4285F4;"></i>
+                        <div class="cat-content">
+                            <h3 class="cat-title">
+                                <i class="fa-solid fa-fill-drip"></i>
+                                <span data-i18n="cat_1_title">Paints & Protective Coatings</span>
+                            </h3>
+                            <p class="cat-desc" data-i18n="cat_1_desc">
+                                Premium interior/exterior paints, wood & metal primers, protective epoxy finishes, and
+                                computerized custom color tinting.
+                            </p>
+                            <ul class="cat-items-list">
+                                <li class="cat-item-pill" data-i18n="cat_1_item_1">Emulsions & Enamels</li>
+                                <li class="cat-item-pill" data-i18n="cat_1_item_2">Weathercoat Exterior</li>
+                                <li class="cat-item-pill" data-i18n="cat_1_item_3">Floor Epoxy</li>
+                                <li class="cat-item-pill" data-i18n="cat_1_item_4">Color Mixing</li>
+                            </ul>
+                            <div class="cat-actions">
+                                <button type="button" class="cat-wa-btn"
+                                    onclick="inquireCategoryWA('Paints & Protective Coatings')">
+                                    <i class="fa-brands fa-whatsapp"></i> <span data-i18n="cat_inquire_wa">Inquire on
+                                        WhatsApp</span>
+                                </button>
                             </div>
-                            <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;">"I’ve been
-                                purchasing from this shop regularly, and their service has always been outstanding. The
-                                quality of materials is top‑notch, prices are competitive, and they maintain great stock
-                                availability."</p>
                         </div>
+                    </div>
 
-                        <!-- Review 2 -->
-                        <div class="review-card"
-                            style="background: rgba(255,255,255,0.03); padding: 30px; border-radius: 15px; border: 1px solid rgba(255,255,255,0.05); transition: transform 0.3s ease;">
-                            <div class="review-header"
-                                style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
-                                <div class="avatar"
-                                    style="width: 50px; height: 50px; border-radius: 50%; background: var(--primary); color: var(--bg-dark); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: bold;">
-                                    T</div>
-                                <div>
-                                    <h4 style="margin: 0; color: white; font-size: 1.1rem;">thaju dheen</h4>
-                                    <div class="stars" style="color: var(--primary); font-size: 0.9rem;">
-                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i>
-                                    </div>
-                                </div>
-                                <i class="fa-brands fa-google"
-                                    style="margin-left: auto; font-size: 1.5rem; color: #4285F4;"></i>
-                            </div>
-                            <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;">"Best building
-                                material shop in dubai. Staff are knowledgeable, friendly, and quick to assist with any
-                                requirement."</p>
+                    <!-- Category 2: Power & Hand Tools -->
+                    <div class="cat-card" data-aos="fade-up" data-aos-delay="150">
+                        <div class="cat-img-box">
+                            <span class="cat-badge-tag" data-i18n="cat_2_tag">Bosch • Makita • DeWalt</span>
+                            <img src="https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&q=80&w=800"
+                                alt="Power and Hand Tools" loading="lazy">
                         </div>
-
-                        <!-- Review 3 -->
-                        <div class="review-card"
-                            style="background: rgba(255,255,255,0.03); padding: 30px; border-radius: 15px; border: 1px solid rgba(255,255,255,0.05); transition: transform 0.3s ease;">
-                            <div class="review-header"
-                                style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
-                                <div class="avatar"
-                                    style="width: 50px; height: 50px; border-radius: 50%; background: var(--primary); color: var(--bg-dark); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: bold;">
-                                    P</div>
-                                <div>
-                                    <h4 style="margin: 0; color: white; font-size: 1.1rem;">printo cm</h4>
-                                    <div class="stars" style="color: var(--primary); font-size: 0.9rem;">
-                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i>
-                                    </div>
-                                </div>
-                                <i class="fa-brands fa-google"
-                                    style="margin-left: auto; font-size: 1.5rem; color: #4285F4;"></i>
+                        <div class="cat-content">
+                            <h3 class="cat-title">
+                                <i class="fa-solid fa-screwdriver-wrench"></i>
+                                <span data-i18n="cat_2_title">Power & Hand Tools</span>
+                            </h3>
+                            <p class="cat-desc" data-i18n="cat_2_desc">
+                                Industrial-grade cordless and corded power machinery, cutting discs, drill bits,
+                                measuring tools, and safety gear for professionals.
+                            </p>
+                            <ul class="cat-items-list">
+                                <li class="cat-item-pill" data-i18n="cat_2_item_1">Hammer Drills</li>
+                                <li class="cat-item-pill" data-i18n="cat_2_item_2">Angle Grinders</li>
+                                <li class="cat-item-pill" data-i18n="cat_2_item_3">Circular Saws</li>
+                                <li class="cat-item-pill" data-i18n="cat_2_item_4">Cordless Kits</li>
+                            </ul>
+                            <div class="cat-actions">
+                                <button type="button" class="cat-wa-btn"
+                                    onclick="inquireCategoryWA('Power & Hand Tools')">
+                                    <i class="fa-brands fa-whatsapp"></i> <span data-i18n="cat_inquire_wa">Inquire on
+                                        WhatsApp</span>
+                                </button>
                             </div>
-                            <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;">"Delivery is fast
-                                and reliable, making the whole process smooth and stress‑free. Highly recommended for
-                                anyone looking for trusted building materials in the area."</p>
+                        </div>
+                    </div>
+
+                    <!-- Category 3: Drywall, Gypsum & Ceilings -->
+                    <div class="cat-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="cat-img-box">
+                            <span class="cat-badge-tag" data-i18n="cat_3_tag">Knauf • Gyproc Quality</span>
+                            <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80&w=800"
+                                alt="Drywall Gypsum and Ceilings" loading="lazy">
+                        </div>
+                        <div class="cat-content">
+                            <h3 class="cat-title">
+                                <i class="fa-solid fa-layer-group"></i>
+                                <span data-i18n="cat_3_title">Drywall, Gypsum & Ceilings</span>
+                            </h3>
+                            <p class="cat-desc" data-i18n="cat_3_desc">
+                                Complete partition and false-ceiling systems: regular and moisture-resistant gypsum
+                                boards, GI studs, tracks, and ceiling tiles.
+                            </p>
+                            <ul class="cat-items-list">
+                                <li class="cat-item-pill" data-i18n="cat_3_item_1">Gypsum Boards</li>
+                                <li class="cat-item-pill" data-i18n="cat_3_item_2">GI Studs & Channels</li>
+                                <li class="cat-item-pill" data-i18n="cat_3_item_3">Joint Compound</li>
+                                <li class="cat-item-pill" data-i18n="cat_3_item_4">Ceiling Grid Tiles</li>
+                            </ul>
+                            <div class="cat-actions">
+                                <button type="button" class="cat-wa-btn"
+                                    onclick="inquireCategoryWA('Drywall, Gypsum & Ceilings')">
+                                    <i class="fa-brands fa-whatsapp"></i> <span data-i18n="cat_inquire_wa">Inquire on
+                                        WhatsApp</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category 4: Hardware, Fasteners & Fixings -->
+                    <div class="cat-card" data-aos="fade-up" data-aos-delay="250">
+                        <div class="cat-img-box">
+                            <span class="cat-badge-tag" data-i18n="cat_4_tag">Heavy-Duty Fixings</span>
+                            <img src="https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&q=80&w=800"
+                                alt="Hardware Fasteners and Screws" loading="lazy">
+                        </div>
+                        <div class="cat-content">
+                            <h3 class="cat-title">
+                                <i class="fa-solid fa-bolt"></i>
+                                <span data-i18n="cat_4_title">Hardware, Fasteners & Fixings</span>
+                            </h3>
+                            <p class="cat-desc" data-i18n="cat_4_desc">
+                                Comprehensive selection of high-tensile drywall screws, anchor bolts, door hardware,
+                                architectural hinges, and masking tapes.
+                            </p>
+                            <ul class="cat-items-list">
+                                <li class="cat-item-pill" data-i18n="cat_4_item_1">Drywall Screws</li>
+                                <li class="cat-item-pill" data-i18n="cat_4_item_2">Anchor Bolts</li>
+                                <li class="cat-item-pill" data-i18n="cat_4_item_3">Door Locks & Handles</li>
+                                <li class="cat-item-pill" data-i18n="cat_4_item_4">Heavy Brackets</li>
+                            </ul>
+                            <div class="cat-actions">
+                                <button type="button" class="cat-wa-btn"
+                                    onclick="inquireCategoryWA('Hardware, Fasteners & Fixings')">
+                                    <i class="fa-brands fa-whatsapp"></i> <span data-i18n="cat_inquire_wa">Inquire on
+                                        WhatsApp</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category 5: Plumbing, Valves & Sanitary -->
+                    <div class="cat-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="cat-img-box">
+                            <span class="cat-badge-tag" data-i18n="cat_5_tag">Grohe & Brass Valves</span>
+                            <img src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&q=80&w=800"
+                                alt="Plumbing and Sanitary Fittings" loading="lazy">
+                        </div>
+                        <div class="cat-content">
+                            <h3 class="cat-title">
+                                <i class="fa-solid fa-faucet-drip"></i>
+                                <span data-i18n="cat_5_title">Plumbing & Sanitary Fittings</span>
+                            </h3>
+                            <p class="cat-desc" data-i18n="cat_5_desc">
+                                Certified PPR, PVC & CPVC pipes, high-pressure brass valves, chrome mixers, flexible
+                                connectors, and drainage solutions.
+                            </p>
+                            <ul class="cat-items-list">
+                                <li class="cat-item-pill" data-i18n="cat_5_item_1">PPR & PVC Pipes</li>
+                                <li class="cat-item-pill" data-i18n="cat_5_item_2">Brass Ball Valves</li>
+                                <li class="cat-item-pill" data-i18n="cat_5_item_3">Mixers & Taps</li>
+                                <li class="cat-item-pill" data-i18n="cat_5_item_4">Drainage Fittings</li>
+                            </ul>
+                            <div class="cat-actions">
+                                <button type="button" class="cat-wa-btn"
+                                    onclick="inquireCategoryWA('Plumbing & Sanitary Fittings')">
+                                    <i class="fa-brands fa-whatsapp"></i> <span data-i18n="cat_inquire_wa">Inquire on
+                                        WhatsApp</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category 6: Adhesives, Sealants & Waterproofing -->
+                    <div class="cat-card" data-aos="fade-up" data-aos-delay="350">
+                        <div class="cat-img-box">
+                            <span class="cat-badge-tag" data-i18n="cat_6_tag">Sika & Industrial PU</span>
+                            <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&q=80&w=800"
+                                alt="Adhesives Sealants and Waterproofing" loading="lazy">
+                        </div>
+                        <div class="cat-content">
+                            <h3 class="cat-title">
+                                <i class="fa-solid fa-flask-vial"></i>
+                                <span data-i18n="cat_6_title">Adhesives, Sealants & Waterproofing</span>
+                            </h3>
+                            <p class="cat-desc" data-i18n="cat_6_desc">
+                                High-performance structural silicone sealants, PU expanding foams, premium tile
+                                adhesives, contact cement, and waterproofing membranes.
+                            </p>
+                            <ul class="cat-items-list">
+                                <li class="cat-item-pill" data-i18n="cat_6_item_1">Silicone Sealants</li>
+                                <li class="cat-item-pill" data-i18n="cat_6_item_2">Expanding PU Foam</li>
+                                <li class="cat-item-pill" data-i18n="cat_6_item_3">Tile Grout & Glue</li>
+                                <li class="cat-item-pill" data-i18n="cat_6_item_4">Waterproofing Paste</li>
+                            </ul>
+                            <div class="cat-actions">
+                                <button type="button" class="cat-wa-btn"
+                                    onclick="inquireCategoryWA('Adhesives, Sealants & Waterproofing')">
+                                    <i class="fa-brands fa-whatsapp"></i> <span data-i18n="cat_inquire_wa">Inquire on
+                                        WhatsApp</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ====================================================
+             WHY CHOOSE US (VALUE PROPOSITION) SECTION
+             ==================================================== -->
+        <section id="why-us">
+            <div class="container">
+                <div class="text-center" data-aos="fade-up">
+                    <div class="section-badge" data-i18n="why_badge">THE MILAN STAR ADVANTAGE</div>
+                    <h2 class="section-title text-center" data-i18n="why_title">Why Contractors Choose Us</h2>
+                    <p class="section-subtitle" data-i18n="why_subtitle">
+                        Over a decade of reliable partnerships with UAE's leading interior fit-out contractors, builders,
+                        and maintenance firms.
+                    </p>
+                </div>
+
+                <div class="why-grid">
+                    <!-- Feature 1 -->
+                    <div class="why-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="why-icon-box"><i class="fa-solid fa-truck-fast"></i></div>
+                        <h4 data-i18n="why_1_title">Same-Day Site Delivery</h4>
+                        <p data-i18n="why_1_desc">
+                            Fleet of dedicated delivery vehicles covering Al Qusais, Business Bay, Downtown, and all 7
+                            Emirates with zero delays to project schedules.
+                        </p>
+                    </div>
+
+                    <!-- Feature 2 -->
+                    <div class="why-card" data-aos="fade-up" data-aos-delay="150">
+                        <div class="why-icon-box"><i class="fa-solid fa-handshake"></i></div>
+                        <h4 data-i18n="why_2_title">Wholesale Contractor Pricing</h4>
+                        <p data-i18n="why_2_desc">
+                            Aggressive volume discounts, tailored project pricing, and official VAT tax invoices for
+                            registered contracting and fit-out firms.
+                        </p>
+                    </div>
+
+                    <!-- Feature 3 -->
+                    <div class="why-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="why-icon-box"><i class="fa-solid fa-shield-halved"></i></div>
+                        <h4 data-i18n="why_3_title">100% Genuine Certified Stock</h4>
+                        <p data-i18n="why_3_desc">
+                            Direct authorized sourcing from trusted global giants including Jotun, Berger, Bosch,
+                            Makita, DeWalt, and Grohe. Zero counterfeit risk.
+                        </p>
+                    </div>
+
+                    <!-- Feature 4 -->
+                    <div class="why-card" data-aos="fade-up" data-aos-delay="250">
+                        <div class="why-icon-box"><i class="fa-solid fa-user-tie"></i></div>
+                        <h4 data-i18n="why_4_title">Dedicated On-Site Sales Rep</h4>
+                        <p data-i18n="why_4_desc">
+                            Our Outdoor Sales Manager (Mr. Printo - 055 365 6298) visits your job site for technical
+                            product consultation, sample review, and bill-of-quantities takeoff.
+                        </p>
+                    </div>
+
+                    <!-- Feature 5 -->
+                    <div class="why-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="why-icon-box"><i class="fa-solid fa-warehouse"></i></div>
+                        <h4 data-i18n="why_5_title">Massive Ready Warehouse Inventory</h4>
+                        <p data-i18n="why_5_desc">
+                            Over 10,000 SKUs physically stocked in our Al Qusais central hub for instantaneous pick-up or
+                            bulk dispatch without lead time waiting.
+                        </p>
+                    </div>
+
+                    <!-- Feature 6 -->
+                    <div class="why-card" data-aos="fade-up" data-aos-delay="350">
+                        <div class="why-icon-box"><i class="fa-solid fa-star"></i></div>
+                        <h4 data-i18n="why_6_title">5.0-Star Google Verified Reputation</h4>
+                        <p data-i18n="why_6_desc">
+                            Recognized as Dubai's most dependable building material merchant with more than 150 verified
+                            five-star ratings and long-standing client loyalty.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====================================================
+             OUR SHOWROOM & WAREHOUSE IN AL QUSAIS
+             ==================================================== -->
+        <section id="showroom">
+            <div class="container">
+                <div class="text-center" data-aos="fade-up">
+                    <div class="section-badge" data-i18n="showroom_badge">OUR LOCATION & PHYSICAL STOCK</div>
+                    <h2 class="section-title text-center" data-i18n="showroom_title">Showroom & Warehouse in Al Qusais
+                    </h2>
+                    <p class="section-subtitle" data-i18n="showroom_subtitle">
+                        Visit us at Shop No-11, Ali Saeed Abdullah Bel Hab Al Ameri Bldg. View our physical inventory in
+                        person.
+                    </p>
+                </div>
+
+                <div class="showroom-grid">
+                    <div class="showroom-item" data-aos="zoom-in" data-aos-delay="100">
+                        <img src="images/catalog/store_1.jpg" alt="Milan Star Storefront Al Qusais" loading="lazy">
+                        <div class="showroom-overlay">
+                            <span class="showroom-caption"><i class="fa-solid fa-store"></i> Store Front & Entrance</span>
+                        </div>
+                    </div>
+                    <div class="showroom-item" data-aos="zoom-in" data-aos-delay="150">
+                        <img src="images/catalog/store_2.jpg" alt="Paints and Coatings Aisle" loading="lazy">
+                        <div class="showroom-overlay">
+                            <span class="showroom-caption"><i class="fa-solid fa-paint-roller"></i> Paints & Tinting Depot</span>
+                        </div>
+                    </div>
+                    <div class="showroom-item" data-aos="zoom-in" data-aos-delay="200">
+                        <img src="images/catalog/store_3.jpg" alt="Power Tools Display" loading="lazy">
+                        <div class="showroom-overlay">
+                            <span class="showroom-caption"><i class="fa-solid fa-screwdriver-wrench"></i> Power Tools Station</span>
+                        </div>
+                    </div>
+                    <div class="showroom-item" data-aos="zoom-in" data-aos-delay="250">
+                        <img src="images/catalog/store_4.jpg" alt="Hardware and Fasteners Stock" loading="lazy">
+                        <div class="showroom-overlay">
+                            <span class="showroom-caption"><i class="fa-solid fa-boxes-stacked"></i> Fasteners & Hardware</span>
+                        </div>
+                    </div>
+                    <div class="showroom-item" data-aos="zoom-in" data-aos-delay="300">
+                        <img src="images/catalog/store_5.jpg" alt="Sanitary and Plumbing Fittings" loading="lazy">
+                        <div class="showroom-overlay">
+                            <span class="showroom-caption"><i class="fa-solid fa-faucet"></i> Plumbing & Valves</span>
+                        </div>
+                    </div>
+                    <div class="showroom-item" data-aos="zoom-in" data-aos-delay="350">
+                        <img src="images/catalog/store_6.jpg" alt="Adhesives and Sealants Shelf" loading="lazy">
+                        <div class="showroom-overlay">
+                            <span class="showroom-caption"><i class="fa-solid fa-flask"></i> Sealants & Adhesives</span>
+                        </div>
+                    </div>
+                    <div class="showroom-item" data-aos="zoom-in" data-aos-delay="400">
+                        <img src="images/catalog/store_7.jpg" alt="Central Warehouse Inventory" loading="lazy">
+                        <div class="showroom-overlay">
+                            <span class="showroom-caption"><i class="fa-solid fa-dolly"></i> Ready Bulk Stock</span>
+                        </div>
+                    </div>
+                    <div class="showroom-item" data-aos="zoom-in" data-aos-delay="450">
+                        <img src="images/catalog/store_8.jpg" alt="Customer Service Counter" loading="lazy">
+                        <div class="showroom-overlay">
+                            <span class="showroom-caption"><i class="fa-solid fa-users"></i> Counter & Dispatch</span>
                         </div>
                     </div>
                 </div>
 
-                <div style="text-align: center; margin-top: 50px;">
+                <!-- Lightbox Modal -->
+                <div id="lightbox" class="lightbox">
+                    <span class="lightbox-close">&times;</span>
+                    <img class="lightbox-content" id="lightbox-img" alt="Enlarged Store Photo">
+                </div>
+            </div>
+        </section>
+
+        <!-- ====================================================
+             FAST RFQ (REQUEST FOR QUOTATION) SECTION
+             ==================================================== -->
+        <section id="rfq">
+            <div class="container">
+                <div class="rfq-wrapper" data-aos="fade-up">
+
+                    <!-- Left: Benefits & Information -->
+                    <div class="rfq-info">
+                        <div class="section-badge" style="margin-bottom: 12px;" data-i18n="rfq_badge">FAST TRACK
+                            ESTIMATION</div>
+                        <h3 data-i18n="rfq_title">Request a Fast Project Quotation (RFQ)</h3>
+                        <p data-i18n="rfq_desc">
+                            Send your bill of quantities or required list of items. Our sales engineering team provides
+                            instant WhatsApp quotations within 30 minutes during business hours.
+                        </p>
+
+                        <div class="rfq-perks">
+                            <div class="rfq-perk-item">
+                                <div class="rfq-perk-icon"><i class="fa-solid fa-clock-rotate-left"></i></div>
+                                <div class="rfq-perk-text">
+                                    <h5 data-i18n="rfq_perk_1_title">30-Minute Rapid Response</h5>
+                                    <p data-i18n="rfq_perk_1_desc">Direct quotation with itemized rates and stock
+                                        availability.</p>
+                                </div>
+                            </div>
+                            <div class="rfq-perk-item">
+                                <div class="rfq-perk-icon"><i class="fa-solid fa-file-invoice"></i></div>
+                                <div class="rfq-perk-text">
+                                    <h5 data-i18n="rfq_perk_2_title">Official VAT Tax Invoices</h5>
+                                    <p data-i18n="rfq_perk_2_desc">Fully compliant corporate documentation for your
+                                        finance team.</p>
+                                </div>
+                            </div>
+                            <div class="rfq-perk-item">
+                                <div class="rfq-perk-icon"><i class="fa-solid fa-percent"></i></div>
+                                <div class="rfq-perk-text">
+                                    <h5 data-i18n="rfq_perk_3_title">Bulk Discount Application</h5>
+                                    <p data-i18n="rfq_perk_3_desc">Custom tiered contractor pricing tailored to your
+                                        order quantity.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Outdoor Sales Call Box -->
+                        <div class="rfq-direct-call">
+                            <i class="fa-solid fa-phone-volume"></i>
+                            <div>
+                                <span data-i18n="rfq_call_label">Outdoor Sales Direct Line:</span>
+                                <a href="tel:0553656298">055 365 6298 (Mr. Printo)</a>
+                            </div>
+                        </div>
+
+                        <!-- Direct Sales Email Box -->
+                        <div class="rfq-direct-call" style="margin-top: 12px; background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.08);">
+                            <i class="fa-solid fa-envelope" style="color: var(--primary);"></i>
+                            <div>
+                                <span data-i18n="rfq_email_label">Direct Sales Email:</span>
+                                <a href="mailto:sales@milanstarbmt.com">sales@milanstarbmt.com</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Interactive Quotation Form -->
+                    <div class="rfq-form-card">
+                        <form id="rfq-form" onsubmit="return submitRFQ('whatsapp');">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="rfq-name">
+                                        <i class="fa-solid fa-user"></i>
+                                        <span data-i18n="form_name_label">Your Full Name / Contact Person *</span>
+                                    </label>
+                                    <input type="text" id="rfq-name" class="form-control" required
+                                        placeholder="e.g., John Smith / Engineer Ali" data-i18n-ph="form_name_ph">
+                                </div>
+                                <div class="form-group">
+                                    <label for="rfq-company">
+                                        <i class="fa-solid fa-building"></i>
+                                        <span data-i18n="form_company_label">Company / Contractor Name (Optional)</span>
+                                    </label>
+                                    <input type="text" id="rfq-company" class="form-control"
+                                        placeholder="e.g., Apex Interiors LLC" data-i18n-ph="form_company_ph">
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="rfq-phone">
+                                        <i class="fa-solid fa-phone"></i>
+                                        <span data-i18n="form_phone_label">WhatsApp / Mobile Number *</span>
+                                    </label>
+                                    <input type="tel" id="rfq-phone" class="form-control" required
+                                        placeholder="+971 50 123 4567" data-i18n-ph="form_phone_ph">
+                                </div>
+                                <div class="form-group">
+                                    <label for="rfq-category">
+                                        <i class="fa-solid fa-cubes"></i>
+                                        <span data-i18n="form_category_label">Primary Material Category *</span>
+                                    </label>
+                                    <select id="rfq-category" class="form-control">
+                                        <option value="Multiple Materials" data-i18n="form_cat_opt_all">Multiple
+                                            Materials / Complete Project</option>
+                                        <option value="Paints & Coatings" data-i18n="form_cat_opt_paints">Paints &
+                                            Protective Coatings</option>
+                                        <option value="Power Tools" data-i18n="form_cat_opt_tools">Power Tools &
+                                            Machinery</option>
+                                        <option value="Gypsum & Ceilings" data-i18n="form_cat_opt_gypsum">Drywall,
+                                            Gypsum & Ceiling Profiles</option>
+                                        <option value="Hardware & Screws" data-i18n="form_cat_opt_hardware">Hardware,
+                                            Fasteners & Screws</option>
+                                        <option value="Plumbing & Sanitary" data-i18n="form_cat_opt_plumbing">Plumbing,
+                                            Valves & Sanitary</option>
+                                        <option value="Adhesives & Waterproofing" data-i18n="form_cat_opt_adhesives">
+                                            Adhesives, Sealants & Waterproofing</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="rfq-location">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <span data-i18n="form_location_label">Delivery Emirate / Site Location *</span>
+                                </label>
+                                <input type="text" id="rfq-location" class="form-control"
+                                    placeholder="e.g., Dubai (Business Bay / Al Qusais / Marina)"
+                                    data-i18n-ph="form_location_ph">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="rfq-notes">
+                                    <i class="fa-solid fa-list-check"></i>
+                                    <span data-i18n="form_notes_label">Required Items / BOQ Details *</span>
+                                </label>
+                                <textarea id="rfq-notes" class="form-control" rows="3" required
+                                    placeholder="List items, quantities, or specific brand requirements..."
+                                    data-i18n-ph="form_notes_ph"></textarea>
+                            </div>
+
+                            <div class="rfq-btn-group">
+                                <button type="button" class="btn-rfq-wa" onclick="submitRFQ('whatsapp')">
+                                    <i class="fa-brands fa-whatsapp"></i> <span data-i18n="btn_rfq_wa">Send RFQ on
+                                        WhatsApp</span>
+                                </button>
+                                <button type="button" class="btn-rfq-email" onclick="submitRFQ('email')">
+                                    <i class="fa-solid fa-envelope"></i> <span data-i18n="btn_rfq_email">Send RFQ via
+                                        Email</span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ====================================================
+             GOOGLE REVIEWS MARQUEE SECTION
+             ==================================================== -->
+        <section id="reviews" class="reviews-section" data-aos="fade-up"
+            style="padding: 90px 0; background: var(--bg-dark);">
+            <div class="container">
+                <div class="section-header" style="text-align: center; margin-bottom: 40px;">
+                    <div class="section-badge" data-i18n="reviews_badge">GOOGLE REVIEWS</div>
+                    <h2 style="color: white; font-size: 2.4rem; font-weight: 800; margin-bottom: 10px;"
+                        data-i18n="reviews_title">Trusted by 150+ Contractors & Homeowners</h2>
+                    <p style="color: var(--text-muted); font-size: 1.1rem;" data-i18n="reviews_subtitle">Rated 5.0 <i
+                            class="fa-solid fa-star" style="color: var(--primary);"></i> on Google Maps by professional
+                        builders across Dubai.</p>
+                </div>
+
+                <div class="reviews-marquee-container">
+                    <div class="reviews-marquee-content" id="reviews-marquee-content">
+                        <!-- Populated and dynamically cloned by main.js with zero empty gaps -->
+                    </div>
+                </div>
+
+                <div style="text-align: center; margin-top: 40px; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
                     <a href="https://maps.app.goo.gl/VhK61zwAapVDZj9bA" target="_blank" rel="noopener noreferrer"
                         class="btn btn-primary"
-                        style="padding: 15px 35px; border-radius: 30px; font-weight: 600; text-decoration: none; display: inline-block; transition: all 0.3s ease;">
-                        Read all reviews on Google <i class="fa-brands fa-google" style="margin-left: 8px;"></i>
+                        style="padding: 14px 28px; border-radius: 30px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 8px;">
+                        <span data-i18n="btn_read_google_reviews">Read all reviews on Google</span> <i class="fa-brands fa-google"></i>
                     </a>
+                    <button type="button" class="btn btn-outline" onclick="openReviewModal()"
+                        style="padding: 14px 28px; border-radius: 30px; font-weight: 700; border: 2px solid rgba(250, 204, 21, 0.5); color: white; background: rgba(255,255,255,0.04); display: inline-flex; align-items: center; gap: 8px;">
+                        <i class="fa-solid fa-pen-to-square" style="color: var(--primary);"></i>
+                        <span data-i18n="btn_write_review">Write a Review</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Write a Review Modal -->
+        <div id="review-modal" class="review-modal-backdrop">
+            <div class="review-modal">
+                <span class="review-modal-close" onclick="closeReviewModal()">&times;</span>
+                <h3 style="color: white; font-size: 1.45rem; font-weight: 800; margin-bottom: 6px;" data-i18n="review_modal_title">Share Your Experience</h3>
+                <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 22px;" data-i18n="review_modal_desc">Your review will immediately appear on our website!</p>
+                
+                <form id="add-review-form" onsubmit="return handleNewReviewSubmit(event);">
+                    <div class="form-group" style="margin-bottom: 16px;">
+                        <label style="color: #cbd5e1; font-size: 0.85rem; font-weight: 600; display: block; margin-bottom: 6px;" data-i18n="review_label_name">Your Name / Company *</label>
+                        <input type="text" id="new-review-name" class="form-control" required placeholder="e.g. Tariq Al Nuaimi / Apex Fitout" data-i18n-ph="review_ph_name">
+                    </div>
+
+                    <div class="form-group" style="margin-bottom: 16px;">
+                        <label style="color: #cbd5e1; font-size: 0.85rem; font-weight: 600; display: block; margin-bottom: 6px;" data-i18n="review_label_rating">Your Rating *</label>
+                        <div class="star-rating-select" id="star-picker">
+                            <i class="fa-solid fa-star active" data-rating="1"></i>
+                            <i class="fa-solid fa-star active" data-rating="2"></i>
+                            <i class="fa-solid fa-star active" data-rating="3"></i>
+                            <i class="fa-solid fa-star active" data-rating="4"></i>
+                            <i class="fa-solid fa-star active" data-rating="5"></i>
+                        </div>
+                        <input type="hidden" id="new-review-rating" value="5">
+                    </div>
+
+                    <div class="form-group" style="margin-bottom: 20px;">
+                        <label style="color: #cbd5e1; font-size: 0.85rem; font-weight: 600; display: block; margin-bottom: 6px;" data-i18n="review_label_text">Your Review *</label>
+                        <textarea id="new-review-text" class="form-control" rows="3" required placeholder="Write your experience with Milan Star..." data-i18n-ph="review_ph_text"></textarea>
+                    </div>
+
+                    <div style="display: flex; gap: 12px; flex-direction: column;">
+                        <button type="submit" class="btn btn-primary" style="width: 100%; border-radius: 8px; padding: 13px;">
+                            <i class="fa-solid fa-check"></i> <span data-i18n="review_btn_submit">Post Review to Website</span>
+                        </button>
+                        <a href="https://maps.app.goo.gl/VhK61zwAapVDZj9bA" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="width: 100%; border-radius: 8px; padding: 10px; font-size: 0.85rem; border: 1px solid rgba(255,255,255,0.18); color: #cbd5e1; display: inline-flex; justify-content: center; align-items: center; gap: 8px;">
+                            <i class="fa-brands fa-google" style="color: #4285F4;"></i> <span data-i18n="review_btn_google">Post on Google Maps Too</span>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+        <!-- ====================================================
+             FAQ (FREQUENTLY ASKED QUESTIONS) SECTION
+             ==================================================== -->
+        <section id="faq">
+            <div class="container">
+                <div class="text-center" data-aos="fade-up">
+                    <div class="section-badge" data-i18n="faq_badge">HAVE QUESTIONS?</div>
+                    <h2 class="section-title text-center" data-i18n="faq_title">Frequently Asked Questions</h2>
+                    <p class="section-subtitle" data-i18n="faq_subtitle">
+                        Everything you need to know about ordering materials, delivery, and payments.
+                    </p>
+                </div>
+
+                <div class="faq-container" data-aos="fade-up" data-aos-delay="100">
+                    <!-- Q1 -->
+                    <div class="faq-item active">
+                        <div class="faq-question">
+                            <span data-i18n="faq_q1">Do you deliver materials directly to construction and fit-out sites?</span>
+                            <div class="faq-toggle-icon"><i class="fa-solid fa-chevron-down"></i></div>
+                        </div>
+                        <div class="faq-answer">
+                            <p data-i18n="faq_a1">
+                                Yes, we provide same-day and scheduled site deliveries across all Dubai districts (including
+                                Al Qusais, Deira, Business Bay, Downtown, Dubai Hills, and JLT) as well as Sharjah, Ajman,
+                                and all UAE Emirates with our dedicated fleet.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Q2 -->
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span data-i18n="faq_q2">Do you offer special contractor discounts and bulk trade pricing?</span>
+                            <div class="faq-toggle-icon"><i class="fa-solid fa-chevron-down"></i></div>
+                        </div>
+                        <div class="faq-answer">
+                            <p data-i18n="faq_a2">
+                                Absolutely. We work closely with fit-out companies, MEP contractors, and maintenance teams.
+                                We provide tiered volume discounts, project-specific quotations, and official VAT tax
+                                invoices for all transactions.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Q3 -->
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span data-i18n="faq_q3">Can you provide computerized paint color mixing for Jotun and Berger?</span>
+                            <div class="faq-toggle-icon"><i class="fa-solid fa-chevron-down"></i></div>
+                        </div>
+                        <div class="faq-answer">
+                            <p data-i18n="faq_a3">
+                                Yes! We operate advanced in-store computerized paint tinting systems capable of matching
+                                any RAL, NCS, or custom designer color code on the spot in matte, silk, or gloss finishes.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Q4 -->
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span data-i18n="faq_q4">Can an outdoor sales representative visit our project site?</span>
+                            <div class="faq-toggle-icon"><i class="fa-solid fa-chevron-down"></i></div>
+                        </div>
+                        <div class="faq-answer">
+                            <p data-i18n="faq_a4">
+                                Yes, our Outdoor Sales team (managed by Mr. Printo - 055 365 6298) is available to visit your
+                                site anywhere in Dubai for material estimation, sample viewing, and technical advice.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Q5 -->
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span data-i18n="faq_q5">What are your showroom hours and exact location?</span>
+                            <div class="faq-toggle-icon"><i class="fa-solid fa-chevron-down"></i></div>
+                        </div>
+                        <div class="faq-answer">
+                            <p data-i18n="faq_a5">
+                                Our showroom is open 7 days a week, Monday through Sunday from 7:30 AM to 8:30 PM. We are
+                                located at Ali Saeed Abdullah Bel Hab Al Ameri Bldg., Shop No-11, Al Qusais Ind First,
+                                Dubai, with easy truck loading access.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====================================================
+             CONTACT & LOCATION MAP SECTION
+             ==================================================== -->
+        <section id="contact">
+            <div class="container">
+                <div class="text-center" data-aos="fade-up">
+                    <div class="section-badge" data-i18n="contact_badge">GET IN TOUCH</div>
+                    <h2 class="section-title text-center" data-i18n="contact_title">Visit Our Central Showroom</h2>
+                    <p class="section-subtitle" data-i18n="contact_subtitle">
+                        Drop by our store in Al Qusais or contact our sales specialists directly.
+                    </p>
+                </div>
+
+                <div class="contact-container" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="contact-info-panel">
+                        <div class="contact-item">
+                            <div class="icon-box"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="info-text">
+                                <h4 data-i18n="contact_loc_title">Showroom Address</h4>
+                                <p data-i18n="contact_loc_text">Ali Saeed Abdullah Bel Hab Al Ameri Bldg.<br>Shop No-11, Al
+                                    Qusais Ind First<br>Dubai, UAE</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="icon-box"><i class="fa-solid fa-phone"></i></div>
+                            <div class="info-text">
+                                <h4 data-i18n="contact_phone_title">Call & Orders</h4>
+                                <a href="tel:045727391">04 572 7391</a> (Landline)<br>
+                                <span style="display: inline-block; margin-top: 8px;">
+                                    <a href="tel:0553656298">055 365 6298</a>
+                                    <span
+                                        style="display:inline-flex; align-items:center; gap:4px; background:rgba(250, 204, 21, 0.15); color:var(--primary); padding:3px 10px; border-radius:12px; font-size:0.8em; font-weight:700; margin-left:6px; border:1px solid rgba(250, 204, 21, 0.3);">
+                                        <i class="fa-solid fa-user-tie"></i> Mr. Printo - Sales Outdoor
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="icon-box"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="info-text">
+                                <h4>Sales & Inquiries</h4>
+                                <a href="mailto:sales@milanstarbmt.com">sales@milanstarbmt.com</a><br>
+                                <a href="mailto:info@milanstarbmt.com" style="color: var(--text-muted); font-size: 0.88em;">info@milanstarbmt.com</a>
+                            </div>
+                        </div>
+
+                        <div class="hours-box">
+                            <h4><i class="fa-solid fa-clock"></i> <span data-i18n="contact_hours_title">Opening
+                                    Hours</span></h4>
+                            <div class="hour-row">
+                                <span data-i18n="contact_hours_days">Monday - Sunday (7 Days)</span>
+                                <span data-i18n="contact_hours_time">7:30 AM - 8:30 PM</span>
+                            </div>
+                        </div>
+
+                        <div style="margin-top: 25px; display: flex; gap: 12px; flex-wrap: wrap;">
+                            <a href="https://maps.app.goo.gl/VhK61zwAapVDZj9bA" target="_blank" rel="noopener noreferrer"
+                                class="btn btn-primary" style="padding: 10px 20px; font-size: 0.88rem;">
+                                <i class="fa-solid fa-map-location-dot"></i> <span
+                                    data-i18n="btn_directions_gmaps">Google Maps</span>
+                            </a>
+                            <a href="https://waze.com/ul?ll=25.282379,55.384794&navigate=yes" target="_blank"
+                                rel="noopener noreferrer" class="btn btn-outline"
+                                style="padding: 10px 20px; font-size: 0.88rem; border: 1px solid rgba(255,255,255,0.2); color: white;">
+                                <i class="fa-brands fa-waze"></i> <span data-i18n="btn_directions_waze">Waze</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="map-panel">
+                        <!-- Google Maps iframe pointing to Al Qusais Industrial Area 1 -->
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.261271172836!2d55.3847941!3d25.2823793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5d56ce2839b9%3A0x860eb29659c2a4ba!2sMILAN%20STAR%20BUILDING%20MATERIALS%20TRADING%20L.L.C!5e0!3m2!1sen!2sae!4v1714571982761!5m2!1sen!2sae"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                            title="Milan Star Store Location">
+                        </iframe>
+                    </div>
                 </div>
             </div>
         </section>
 
     </main>
+
     <!-- Footer -->
     <footer>
         <div class="container">
             <div class="footer-top">
                 <div class="footer-brand">
-                    <a href="/">
+                    <a href="#hero">
                         <img src="logo.png" loading="eager" width="220" height="70" style="object-fit: contain;"
                             alt="MILAN STAR BUILDING MATERIALS TRADING L.L.C" class="site-logo footer-site-logo"
-                            onerror="this.onerror=null; this.outerHTML='<div class=\'footer-logo\'>MILAN STAR <span>BUILDING MATERIALS TRADING L.L.C</span></div>';">
+                            onerror="this.onerror=null; this.outerHTML='<div class=\'footer-logo\'>MILAN STAR <span>BUILDING MATERIALS</span></div>';">
                     </a>
-                    <p style="margin-top: 15px; color: var(--text-muted); font-size: 0.95rem;">Your trusted partner for
-                        all premium interior building materials, hardware, and finishings in Dubai.</p>
+                    <p style="margin-top: 15px; color: var(--text-muted); font-size: 0.95rem;"
+                        data-i18n="footer_desc">
+                        MILAN STAR BUILDING MATERIALS TRADING L.L.C is Dubai's leading supplier of premium hardware,
+                        paints, gypsum, and construction finishes.
+                    </p>
                     <div class="social-links" style="display: flex; gap: 15px; margin-top: 20px;">
-                        <a href="#"
-                            style="width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,0.05); display: flex; align-items: center; justify-content: center; color: var(--primary); transition: all 0.3s;"><i
+                        <a href="https://wa.me/971553656298" target="_blank" rel="noopener noreferrer"
+                            aria-label="WhatsApp"
+                            style="width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,0.05); display: flex; align-items: center; justify-content: center; color: var(--primary);"><i
                                 class="fa-brands fa-whatsapp"></i></a>
-                        <a href="#"
-                            style="width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,0.05); display: flex; align-items: center; justify-content: center; color: var(--primary); transition: all 0.3s;"><i
-                                class="fa-brands fa-instagram"></i></a>
-                        <a href="#"
-                            style="width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,0.05); display: flex; align-items: center; justify-content: center; color: var(--primary); transition: all 0.3s;"><i
-                                class="fa-brands fa-facebook-f"></i></a>
+                        <a href="mailto:info@milanstarbmt.com" aria-label="Email"
+                            style="width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,0.05); display: flex; align-items: center; justify-content: center; color: var(--primary);"><i
+                                class="fa-solid fa-envelope"></i></a>
+                        <a href="https://maps.app.goo.gl/VhK61zwAapVDZj9bA" target="_blank" rel="noopener noreferrer"
+                            aria-label="Google Maps"
+                            style="width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,0.05); display: flex; align-items: center; justify-content: center; color: var(--primary);"><i
+                                class="fa-solid fa-location-dot"></i></a>
                     </div>
                 </div>
+
                 <div class="footer-links-col">
-                    <h4 style="margin-bottom: 20px; color: white;">Quick Links</h4>
+                    <h4 style="margin-bottom: 20px; color: white;" data-i18n="footer_links_title">Quick Navigation</h4>
                     <div style="display: flex; flex-direction: column; gap: 10px;">
-                        <a href="/" style="color: var(--text-muted); transition: color 0.3s;">Home</a>
-                        <a href="about.html" style="color: var(--text-muted); transition: color 0.3s;">About Us</a>
-                        <a href="catalog.html" style="color: var(--text-muted); transition: color 0.3s;">Catalog</a>
-                        <a href="contact.html" style="color: var(--text-muted); transition: color 0.3s;">Contact Us</a>
+                        <a href="#hero" style="color: var(--text-muted);" data-i18n="nav_home">Home</a>
+                        <a href="#categories" style="color: var(--text-muted);" data-i18n="nav_categories">Materials</a>
+                        <a href="#why-us" style="color: var(--text-muted);" data-i18n="nav_why_us">Why Us</a>
+                        <a href="#showroom" style="color: var(--text-muted);" data-i18n="nav_showroom">Showroom</a>
+                        <a href="#rfq" style="color: var(--text-muted);" data-i18n="nav_rfq">Request Quote</a>
+                        <a href="#reviews" style="color: var(--text-muted);" data-i18n="nav_reviews">Reviews</a>
+                        <a href="#contact" style="color: var(--text-muted);" data-i18n="nav_contact">Contact</a>
                     </div>
                 </div>
+
                 <div class="footer-contact">
-                    <h4 style="margin-bottom: 20px; color: white;">Contact Info</h4>
+                    <h4 style="margin-bottom: 20px; color: white;" data-i18n="footer_contact_title">Contact Info</h4>
                     <div style="display: flex; flex-direction: column; gap: 15px; color: var(--text-muted);">
                         <p><i class="fa-solid fa-location-dot" style="color: var(--primary); width: 20px;"></i> Ali
                             Saeed Abdullah Bel Hab Al Ameri Bldg., Shop No-11, Al Qusais Ind First, Dubai</p>
-                        <p><i class="fa-solid fa-phone" style="color: var(--primary); width: 20px;"></i> <a
-                                href="tel:045727391">04 572 7391</a><br><i class="fa-solid fa-phone"
-                                style="color: transparent; width: 20px;"></i> <span style="display: inline-block;"><a
-                                    href="tel:0553656298">055 365 6298</a><span
-                                    style="display:inline-flex; align-items:center; gap:4px; background:rgba(250, 204, 21, 0.15); color:var(--primary); padding:2px 8px; border-radius:12px; font-size:0.75em; font-weight:600; margin-left:6px; border:1px solid rgba(250, 204, 21, 0.3);"><i
-                                        class="fa-solid fa-user-tie"></i> Mr. Printo - Sales Outdoor</span></span></p>
+                        <p>
+                            <i class="fa-solid fa-phone" style="color: var(--primary); width: 20px;"></i>
+                            <a href="tel:045727391">04 572 7391</a><br>
+                            <i class="fa-solid fa-mobile-screen" style="color: var(--primary); width: 20px;"></i>
+                            <span style="display: inline-block;">
+                                <a href="tel:0553656298">055 365 6298</a>
+                                <span
+                                    style="display:inline-flex; align-items:center; gap:4px; background:rgba(250, 204, 21, 0.15); color:var(--primary); padding:2px 8px; border-radius:12px; font-size:0.75em; font-weight:600; margin-left:6px; border:1px solid rgba(250, 204, 21, 0.3);">
+                                    <i class="fa-solid fa-user-tie"></i> Mr. Printo - Sales Outdoor
+                                </span>
+                            </span>
+                        </p>
                         <p><i class="fa-solid fa-envelope" style="color: var(--primary); width: 20px;"></i> <a
-                                href="mailto:info@milanstarbmt.com">info@milanstarbmt.com</a></p>
+                                href="mailto:sales@milanstarbmt.com">sales@milanstarbmt.com</a></p>
                         <p><i class="fa-solid fa-clock" style="color: var(--primary); width: 20px;"></i> Mon-Sun: 7:30
                             AM - 8:30 PM</p>
                     </div>
                 </div>
             </div>
+
             <div class="footer-bottom">
-                &copy; <span id="year"></span> MILAN STAR BUILDING MATERIALS TRADING L.L.C. All rights reserved.
+                &copy; <span id="year"></span> <span data-i18n="footer_copy">MILAN STAR BUILDING MATERIALS TRADING
+                    L.L.C. All rights reserved.</span>
             </div>
         </div>
     </footer>
@@ -407,9 +1100,9 @@
     <!-- Main JS -->
     <script src="main.js"></script>
 
-    <!-- Floating WhatsApp -->
+    <!-- Floating WhatsApp Action -->
     <div class="whatsapp-container">
-        <div class="wa-tooltip">Chat with us online!</div>
+        <div class="wa-tooltip" data-i18n="wa_tooltip_text">Chat with sales outdoor!</div>
         <a href="https://wa.me/971553656298" class="floating-whatsapp pulse" aria-label="Chat on WhatsApp"
             target="_blank" rel="noopener noreferrer">
             <i class="fa-brands fa-whatsapp"></i>
